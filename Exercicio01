@@ -1,0 +1,34 @@
+package IfElseNumeroNegativoPositivo;
+
+import java.util.Scanner;
+public class PositivoNegativo {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+		
+		double Null = 0;
+		double Num;
+		
+		System.out.print("escreva um numero");
+		Num =  scanner.nextDouble();
+		
+		
+		
+		if(Null > Num) {
+			System.out.println("numero negativo ");
+		}
+		
+		else if(Null < Num){
+			System.out.print("Num positivo");
+		}
+		
+		else if(Null==Num) {
+			System.out.println("numero nulo");
+			
+			scanner.close();
+			
+		}
+
+	}
+
+}
