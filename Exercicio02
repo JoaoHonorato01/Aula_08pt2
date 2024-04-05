@@ -1,0 +1,26 @@
+package IfElseNumParImpar;
+import java.util.Scanner;
+
+public class NumParImpar {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		double num ;
+		
+		
+		System.out.println("insira um numero");
+		num = scanner.nextDouble();
+		
+		if(num%2 == 0){
+			System.out.print("NUMERO PAR");	
+			
+		}
+		else if(num%2 == 1) {
+			System.out.print("NUMERO IMPAR");
+			
+			scanner.close();
+		}
+		
+	}
+
+}
